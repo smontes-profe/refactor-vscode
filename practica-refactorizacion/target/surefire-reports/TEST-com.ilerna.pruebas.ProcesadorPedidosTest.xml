@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ilerna.pruebas.ProcesadorPedidosTest" time="0.047" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\repos\refactor-vscode\practica-refactorizacion\target\test-classes;C:\repos\refactor-vscode\practica-refactorizacion\target\classes;C:\Users\smontes\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\smontes\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Europe/Madrid"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="C:\Eclipse Adoptium\jdk-25.0.0.36-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\smontes\AppData\Local\Temp\surefire334583777963619967\surefirebooter14646708096472418824.jar C:\Users\smontes\AppData\Local\Temp\surefire334583777963619967 2026-01-29T16-07-35_059-jvmRun1 surefire6600980347517313636tmp surefire_017499354250178868323tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\repos\refactor-vscode\practica-refactorizacion\target\test-classes;C:\repos\refactor-vscode\practica-refactorizacion\target\classes;C:\Users\smontes\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\smontes\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\smontes"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-09-16"/>
+    <property name="java.home" value="C:\Eclipse Adoptium\jdk-25.0.0.36-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\repos\refactor-vscode\practica-refactorizacion"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\smontes\AppData\Local\Temp\surefire334583777963619967\surefirebooter14646708096472418824.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25+36-LTS"/>
+    <property name="user.name" value="smontes"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-25+36"/>
+    <property name="localRepository" value="C:\Users\smontes\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\smontes\AppData\Local\Temp\"/>
+    <property name="java.version" value="25"/>
+    <property name="user.dir" value="C:\repos\refactor-vscode\practica-refactorizacion"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Eclipse Adoptium\jdk-25.0.0.36-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-25.0.1.8-hotspot\bin;C:\Program Files\PlasticSCM5\server;C:\Program Files\PlasticSCM5\client;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\xampp\php;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\cursor\resources\app\bin;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\GitHub CLI\;C:\apache-maven-3.9.12\bin\;C:\Eclipse Adoptium\jdk-25.0.0.36-hotspot\bin;C:\Python\Python314\Scripts\;C:\Python\Python314\;C:\Users\smontes\AppData\Local\Microsoft\WindowsApps;C:\Users\smontes\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\smontes\AppData\Local\Python\bin;C:\Users\smontes\AppData\Local\Programs\Antigravity\bin;C:\Users\smontes\AppData\Local\GitHubDesktop\bin;C:\Users\smontes\AppData\Roaming\Composer\vendor\bin;c:\Users\smontes\.antigravity\extensions\vscjava.vscode-java-debug-0.58.5-universal\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="25+36-LTS"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="testProcesarPedidoConDescuento" classname="com.ilerna.pruebas.ProcesadorPedidosTest" time="0.027"/>
+</testsuite>
