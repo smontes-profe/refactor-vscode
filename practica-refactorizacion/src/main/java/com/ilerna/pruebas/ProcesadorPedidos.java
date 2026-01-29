@@ -18,29 +18,29 @@ public class ProcesadorPedidos {
     private static final double UMBRAL_DESCUENTO = 100.0;
     private static final double UMBRAL_ENVIO_GRATIS = 500.0;
 
-    public double procesar(List<String> a, List<Double> b) {
-        double t = 0;
+    public double procesar(List<String> nombresProductos, List<Double> preciosProductos) {
+        double subtotal = 0;
 
         // Sumar precios de la lista
-        for (int i = 0; i < b.size(); i++) {
-            logger.log(Level.INFO, "Añadiendo producto: {0}", a.get(i));
-            t = t + b.get(i);
+        for (int i = 0; i < preciosProductos.size(); i++) {
+            logger.log(Level.INFO, "Añadiendo producto: {0}", nombresProductos.get(i));
+            subtotal = subtotal + preciosProductos.get(i);
         }
 
-        // Lógica de descuento (Magic Number 100 y 0.10)
-        if (t > UMBRAL_DESCUENTO) {
+        // Lógica de descuento
+        if (subtotal > UMBRAL_DESCUENTO) {
             logger.info("Descuento aplicado.");
-            t = t - (t * PORCENTAJE_DESCUENTO);
+            subtotal = subtotal - (subtotal * PORCENTAJE_DESCUENTO);
         }
 
-        // Cálculo de impuestos (Magic Number 0.21)
-        double res = t + (t * PORCENTAJE_IVA);
+        // Cálculo de impuestos
+        double totalConIva = subtotal + (subtotal * PORCENTAJE_IVA);
 
-        // Gastos de envío (Magic Number 500 y 15.95)
-        if (res < UMBRAL_ENVIO_GRATIS) {
-            res = res + COSTE_ENVIO;
+        // Gastos de envío
+        if (totalConIva < UMBRAL_ENVIO_GRATIS) {
+            totalConIva = totalConIva + COSTE_ENVIO;
         }
 
-        return res;
+        return totalConIva;
     }
 }
