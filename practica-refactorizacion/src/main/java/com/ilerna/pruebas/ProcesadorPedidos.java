@@ -18,6 +18,14 @@ public class ProcesadorPedidos {
     private static final double UMBRAL_DESCUENTO = 100.0;
     private static final double UMBRAL_ENVIO_GRATIS = 500.0;
 
+    public static void main(String[] args) {
+        ProcesadorPedidos procesadorPedidos = new ProcesadorPedidos();
+        List<String> nombresProductos = List.of("Producto 1", "Producto 2", "Producto 3");
+        List<Double> preciosProductos = List.of(10.0, 20.0, 30.0);
+        double total = procesadorPedidos.procesar(nombresProductos, preciosProductos);
+        logger.log(Level.INFO, "Total: {0}", total);
+    }
+
     public double procesar(List<String> nombresProductos, List<Double> preciosProductos) {
         double subtotal = 0;
 
