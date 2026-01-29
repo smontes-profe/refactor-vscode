@@ -5,7 +5,7 @@
 
 exec-output.txt
 maven-output.txt
-
+.code-workspace
 # User-specific files
 *.rsuser
 *.suo
