@@ -1,0 +1,34 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< com.ilerna.pruebas:practica-refactorizacion >-------------
+[INFO] Building practica-refactorizacion 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec:3.6.3:java (default-cli) @ practica-refactorizacion ---
+mvn : ene 29, 2026 4:11:32 P.áM. 
+com.ilerna.pruebas.ProcesadorPedidos procesar
+En línea: 1 Carácter: 1
++ mvn exec:java 2>&1 | Out-File -FilePath exec-output.txt 
+-Encoding utf ...
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (ene 29, 2026 4 
+   :...edidos procesar:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+INFORMACIËN: A±adiendo producto: Producto 1
+ene 29, 2026 4:11:32 P.áM. 
+com.ilerna.pruebas.ProcesadorPedidos procesar
+INFORMACIËN: A±adiendo producto: Producto 2
+ene 29, 2026 4:11:32 P.áM. 
+com.ilerna.pruebas.ProcesadorPedidos procesar
+INFORMACIËN: A±adiendo producto: Producto 3
+ene 29, 2026 4:11:32 P.áM. 
+com.ilerna.pruebas.ProcesadorPedidos main
+INFORMACIËN: Total: 88,55
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.440 s
+[INFO] Finished at: 2026-01-29T16:11:32+01:00
+[INFO] ------------------------------------------------------------------------
